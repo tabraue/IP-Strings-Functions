@@ -12,4 +12,4 @@ let x = 5
 let y = 8
 let z = 2
 
-console.log(maxOfThree(x)) .
+console.log(maxOfThree(x))
