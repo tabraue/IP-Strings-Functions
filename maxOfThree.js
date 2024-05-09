@@ -1,9 +1,11 @@
-function maxOfTwoNumbers() {
-  
-  if (10 > 20)
-    return 10;
-  else
-    return 20;
+function maxOfThree(num1, num2, num3) {
+  if (num1 >= num2 && num1 >= num3) {
+    return num1;
+  } else if (num2 >= num1 && num2 >= num3) {
+    return num2;
+  } else {
+    return num3;
   }
+}
 
-console.log(maxOfTwoNumbers())
+console.log(maxOfThree(10, 20, 15)); 

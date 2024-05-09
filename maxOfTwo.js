@@ -1,9 +1,8 @@
-function maxOfTwoNumbers() {
-  
-    if (10 > 20)
-      return 10;
-    else
-      return 20;
-    }
-  
-  console.log(maxOfTwoNumbers())
+function maxOfTwoNumbers(num1, num2) {
+  if (num1 > num2)
+    return num1;
+  else
+    return num2;
+}
+
+console.log(maxOfTwoNumbers(10, 20));
