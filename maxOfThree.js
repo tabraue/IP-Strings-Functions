@@ -8,4 +8,4 @@ function maxOfThree(num1, num2, num3) {
   }
 }
 
-console.log(maxOfThree(10, 20, 15)); 
+console.log(maxOfThree(6, 7, 15)); 
