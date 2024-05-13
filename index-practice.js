@@ -22,3 +22,11 @@
     console.log(maxOfThree(2,4,8));
     console.log(maxOfThree(8,4,2))
  
+
+const isChararcter = (char) => {
+    const vowels = ["a", "e", "i", "o", "u"];
+    return volwels.includes(Char.toLowerCase());
+
+}
+console.log(isChararcter("a"));
+console.log(isChararcter("b"));
