@@ -1,8 +1,8 @@
-function isCharacterAvowel (a){
-    if(a === "a","e","i","o","u") {
+function isCharacterAvowel (letra){
+    if(letra === "a" ||letra === "e" || letra === "i" || letra === "o" || letra=== "u") {
         return true; 
     } else {
     return false;
 }
 }
-isCharacterAvowel(32);
+console.log (isCharacterAvowel(32));
