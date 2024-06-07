@@ -1,8 +1,8 @@
-function isCharacterAvowel (letra){
-    if(letra === "a" ||letra === "e" || letra === "i" || letra === "o" || letra=== "u") {
+function isCharacterAvowel (vowel){
+    if(vowel === "a" ||vowel === "e" || vowel=== "i" |vowel === "o" ||vowel === "u") {
         return true; 
     } else {
     return false;
 }
 }
-console.log (isCharacterAvowel(32));
+console.log(isCharacterAvowel("z"))
